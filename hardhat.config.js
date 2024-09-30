@@ -6,14 +6,14 @@ require('dotenv').config({ path: __dirname + '/.env' });
 module.exports = {
   solidity: "0.8.22",
   networks: {
-    sepolia: {
-      url: process.env.SEPOLIA_RPC,
+    shimmer: {
+      url: process.env.SHIMMER_RPC,
       accounts: [process.env.PK]
     },
-    arbsepolia: {
-      url: process.env.ARBITRUM_SEPOLIA_RPC,
+    iota: {
+      url: process.env.IOTA_RPC,
       accounts: [process.env.PK]
-    },
+    }
 
   }
 };

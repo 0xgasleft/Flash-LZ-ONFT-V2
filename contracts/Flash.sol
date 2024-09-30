@@ -1,6 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.22;
-pragma experimental ABIEncoderV2;
 
 import "@layerzerolabs/onft-evm/contracts/onft721/ONFT721.sol";
 
@@ -16,5 +15,6 @@ contract Flash is ONFT721 {
             }
         }
     }
+
 
 }
